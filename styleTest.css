@@ -1,0 +1,36 @@
+.main{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+}
+.mata{
+    background-image: url('images/bg.jpg'); 
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+form button{ text-align: center;
+    width: 100%;
+
+    
+
+
+}
+
+@media(min-width: 790px) {
+    
+form .btn:hover {
+    background-color: yellow;
+    color: purple;
+  }
+ 
+}
+
+
+form{
+    padding-bottom: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
