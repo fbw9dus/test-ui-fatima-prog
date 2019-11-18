@@ -19,13 +19,20 @@ Projekt für Test im UI Modul
 ![](drafts/desktop.JPG)
 ![](drafts/desktop-button-hover.JPG)
 
-###   __/60 Punkten
+###   46/60 Punkten
 #### Punktabzüge für:
-- [_] (10) Elemente passen sich nicht an Fensterbreite an
+- [x] (4) Elemente passen sich nicht an Fensterbreite an
+```diff
+- In der mobilen Ansicht kommt die Anordnung der Elemente im Header durcheinander
+```
 - [_] (10) Tags nicht geschlossen oder falsch verschachtelt
 - [_] (5) Block-Tag in Inline-Tag
 - [_] (5) Kinder-Tags im Code nicht eingerückt
-- [_] (10) Zweckfremde Tags verwendet
+- [x] (10) Zweckfremde Tags verwendet
+```diff
+- Label in Zeile 85 verwendet, obwohl es ein einfacher Text oder eine Überschrift sein sollte. Das for-Attribut wird verwendet, ist aber mit keinem Formularfeld verknüpft.
+- Im parent davon wird die form-group-Klasse verwendet obwohl sich keine Formularfelder dariin befinden.
+```
 - [_] (10) Fehlende essetielle Tags (z.B. Meta-Tags)
 - [_] (5) Falsche Datei-Pfade
 - [_] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
